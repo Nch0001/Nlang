@@ -73,9 +73,9 @@
 ### new Path(directory)
 
 # Exceptions
-### throw new Exception()[^throw]
+### throw[^throw] (new Exception())
 ### try[^try]
-### catch (Exception)[^catch]
+### catch[^catch] (Exception)
 
 
 [^public]: Accessible from other files
