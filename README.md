@@ -78,34 +78,34 @@
 ### catch (Exception)
 
 
-Accessible from other files
-Accessible to only local file
-Accessible to sub-classes only
-Static Class Member
-Unchanging
-Static and Final
-Defined
-Functions & Empty
-Empty functions
-Memory Address Check
-Boolean Or
-Boolean Inversion
-Unbound value
-Unconstructed Class
-Superclass for all Numerical Types
-8  bits
-16 bits
-32 bits
-64 bits
-32 bit floating point single precision
-64 bit floating point double precision
-"" or ''
-True or False
-returns null
-Checks argument against conditionals
-If check against previous conditional is not true
-If all previous conditionals failed
-mode can be read (r) write (w) binary(b) append(a) can be rwb, ab, r, rw, etc.
-Outputs Exception
-Attempts to run something
-Handles upon errors
+>Accessible from other files
+>Accessible to only local file
+>Accessible to sub-classes only
+>Static Class Member
+>Unchanging
+>Static and Final
+>Defined
+>Functions & Empty
+>Empty functions
+>Memory Address Check
+>Boolean Or
+>Boolean Inversion
+>Unbound value
+>Unconstructed Class
+>Superclass for all Numerical Types
+>8  bits
+>16 bits
+>32 bits
+>64 bits
+>32 bit floating point single precision
+>64 bit floating point double precision
+>"" or ''
+>True or False
+>returns null
+>Checks argument against conditionals
+>If check against previous conditional is not true
+>If all previous conditionals failed
+>mode can be read (r) write (w) binary(b) append(a) can be rwb, ab, r, rw, etc.
+>Outputs Exception
+>Attempts to run something
+>Handles upon errors
