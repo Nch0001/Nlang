@@ -1,35 +1,35 @@
 # Access Modifiers
-### public[^public]
-### private[^private]
-### protected [^protected]
+### public
+### private
+### protected 
     
 # Member Modifiers
-### static[^static]
-### final[^final]
-### const[^const]
+### static
+### final
+### const
 
 # Class Definition Types
-### class[^class1]
-### abstract[^abstract]
-### facade[^facade]
+### class
+### abstract
+### facade
 
 # Logical Operators
-### is[^is]
-### or[^or]
-### not[^not]
+### is
+### or
+### not
 
 # Types
-### NullType  [^nulltype]
-### Class[^class2]
-### Number[^number]
-- Byte[^byte]
-- Short[^short]
-- Integer[^integer]
-- Long[^long]
-- Float[^float]
-- Double[^double]
-### String[^string]
-### Boolean[^boolean]
+### NullType  
+### Class
+### Number
+- Byte
+- Short
+- Integer
+- Long
+- Float
+- Double
+### String
+### Boolean
 
 # Type inline
 ### byte
@@ -40,7 +40,7 @@
 ### double
 ### string
 ### bool
-### void[^void]
+### void
 
 # Constants
 ### null
@@ -48,9 +48,9 @@
 ### False
 
 # Conditionals
-### if[^if]
-### elif[^elif]
-### else[^else]
+### if
+### elif
+### else
 
 # Operands
 ### ^
@@ -66,46 +66,46 @@
 
 
 # File Library (nlang.file.File)
-### BinaryFile/StringFile File.open(Path path, String mode)[^stringfile]
+### BinaryFile/StringFile File.open(Path path, String mode)
 ### String/Byte[] StringFile.read(long characters)
     
 # Path Library (nlang.file.Path)
 ### new Path(directory)
 
 # Exceptions
-### throw[^throw] (new Exception())
-### try[^try]
-### catch[^catch] (Exception)
+### throw (new Exception())
+### try
+### catch (Exception)
 
 
-[^public]: Accessible from other files
-[^private]: Accessible to only local file
-[^protected]: Accessible to sub-classes only
-[^static]: Static Class Member
-[^final]: Unchanging
-[^const]: Static and Final
-[^class1]: Defined
-[^abstract]: Functions & Empty
-[^facade]: Empty functions
-[^is]: Memory Address Check
-[^or]: Boolean Or
-[^not]: Boolean Inversion
-[^nulltype]: Unbound value
-[^class2]: Unconstructed Class
-[^number]: Superclass for all Numerical Types
-[^byte]: 8  bits
-[^short]: 16 bits
-[^integer]: 32 bits
-[^long]: 64 bits
-[^float]: 32 bit floating point single precision
-[^double]: 64 bit floating point double precision
-[^string]: "" or ''
-[^boolean]: True or False
-[^void]: returns null
-[^if]: Checks argument against conditionals
-[^elif]: If check against previous conditional is not true
-[^else]: If all previous conditionals failed
-[^stringfile]: mode can be read (r) write (w) binary(b) append(a) can be rwb, ab, r, rw, etc.
-[^throw]: Outputs Exception
-[^try]: Attempts to run something
-[^catch]: Handles upon errors
+Accessible from other files
+Accessible to only local file
+Accessible to sub-classes only
+Static Class Member
+Unchanging
+Static and Final
+Defined
+Functions & Empty
+Empty functions
+Memory Address Check
+Boolean Or
+Boolean Inversion
+Unbound value
+Unconstructed Class
+Superclass for all Numerical Types
+8  bits
+16 bits
+32 bits
+64 bits
+32 bit floating point single precision
+64 bit floating point double precision
+"" or ''
+True or False
+returns null
+Checks argument against conditionals
+If check against previous conditional is not true
+If all previous conditionals failed
+mode can be read (r) write (w) binary(b) append(a) can be rwb, ab, r, rw, etc.
+Outputs Exception
+Attempts to run something
+Handles upon errors
