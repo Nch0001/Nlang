@@ -133,8 +133,9 @@ Mode can be `read (r)` `write (w)` `binary (b)` `append (a)` or a combination su
 ***
 
 # Path Library (nlang.file.Path)
-> To import the path library, do: 
-`import nlang.file.Path;`
+> To import the path library, do:
+>
+>`import nlang.file.Path;`
 
 `Path path = new Path("directory")`
 
