@@ -60,7 +60,7 @@
 ### String
 >"" or ''
 ### Boolean
->True or False
+>true or false
 
 ***
 
@@ -80,8 +80,8 @@
 
 # Constants
 ### null
-### True
-### False
+### true
+### false
 
 ***
 
@@ -133,7 +133,12 @@ Mode can be `read (r)` `write (w)` `binary (b)` `append (a)` or a combination su
 ***
 
 # Path Library (nlang.file.Path)
-### new Path(directory)
+> To import the path library, do: 
+`import nlang.file.Path;`
+
+`Path path = new Path("directory")`
+
+`Path[] Path.list()`
 
 ***
 
