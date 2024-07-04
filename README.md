@@ -1,15 +1,11 @@
 # What is Nlang?
 Nlang is a language based on Java/C++ syntax, with many frameworks built in, and is not expected to be functional anytime soon.
 
-
-
 # Features of Nlang
 ```js
 "Lol, nothing yet, it's not real!" /* True statement */
 ```
 Only for now, of course.
-
-
 
 # How to obtain/build Nlang
 
