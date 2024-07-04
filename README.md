@@ -27,24 +27,56 @@ Only for now, of course.
 
 >Accessible from other files
 
-<em><strong>onefile.nl</strong></em>
-
+<em><strong>oneFile.nl</strong></em>
 ```java
 public string testString = "Hello World!"; 
 ```
 
-<em><strong>anotherfile.nl</strong></em>
-
+<em><strong>anotherFile.nl</strong></em>
 ```java
-import onefile.testString;
+import oneFile;
 
-out testString; // Would output "Hello World!\n" to the terminal.
+out(oneFile.testString; // Would output "Hello World!\n" to the terminal.
 ```
 
 ### private
 >Accessible to only local file
+
+<em><strong>oneFile.nl</strong></em>
+```java
+private string testString = "Hello World!"; 
+```
+
+<em><strong>anotherFile.nl</strong></em>
+```java
+import oneFile;
+
+out(oneFile.testString; // Would throw a PrivateAccess error.
+```
+
 ### protected 
 >Accessible to sub-classes only
+
+<em><strong>oneFile.nl</strong></em>
+```java
+protected string testString = "Hello World!"; 
+```
+
+<em><strong>anotherFile.nl</strong></em>
+```java
+import oneFile;
+
+out(testString; // Would throw a PrivateAccess error.
+```
+
+<em><strong>anotherFile2.nl</strong></em>
+```java
+import oneFile;
+
+public class e() extends oneFile {
+  out(oneFile.testString); // Would output "Hello World!\n" to the terminal.
+}
+```
     
 ***
 
@@ -164,27 +196,27 @@ out testString; // Would output "Hello World!\n" to the terminal.
 >Checks argument against conditionals
 ```java
 if (null is null) {
-  out "Hello World!";
+  out("Hello World!");
 }
 ```
 ### elif
 >If check against previous conditional is not true
 ```java
 if (null is true) {
-  out "I'm a failure :(";
+  out("I'm a failure :(");
 }elif (null is null) {
-  out "Are you proud of me, dad?";
+  out("Are you proud of me, dad?");
 }
 ```
 ### else
 >If all previous conditionals failed
 ```java
 if (null == true) {
-  out "I'm a failure :(";
+  out("I'm a failure :(");
 }elif (true == null) {
-  out "I'm a failure, too! :(";
+  out("I'm a failure, too! :(");
 }else {
-  out "Hello World!"; 
+  out("Hello World!"); 
 } // In this instance "Hello World!" will output to the terminal, due to the fact null cannot equal true.
 ```
 
@@ -194,27 +226,27 @@ if (null == true) {
 ### ^
 >Exponential operator
 ```java
-out 4 ^ 2; // outputs 16
+out(4 ^ 2); // outputs 16
 ```
 ### %
 >Modulo operator
 ```java
-out 5 % 3; // outputs 2
+out(5 % 3); // outputs 2
 ```
 ***
 
 # Command Line Handlers
-### in " "
+### in(" ")
 >Reads an input with a given prompt.
 
 ```java
-string input = in "Please enter a name: ";
+string input = in("Please enter a name: ");
 ```
-### out " "
+### out(" ")
 >Outputs a message with a newline added on the end.
 
 ```java
-out "Hello World!"; // Outputs "Hello World!\n" to the terminal.
+out("Hello World!"); // Outputs "Hello World!\n" to the terminal.
 ```
 
 ### write " "
@@ -228,7 +260,7 @@ write "Hello World!"; // Outputs "Hello World!" to the terminal.
 >Reads from input the given amount of characters.
 ```java
 string lines = read 4;
-out lines;
+out(lines);
 ```
 ***
 
@@ -279,9 +311,9 @@ Outputs: `ExceptionType: Exception Stacktrace`
 >Handles upon errors
 ```Java
 try {
-    out "Hello World!";
+    out("Hello World!");
 }catch (e as Exception) {
-    out e.toString();
+    out(e.toString());
 }
 ```
 
